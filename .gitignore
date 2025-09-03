@@ -46,3 +46,20 @@ dist/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+
+# Puppeteer Chromium binaries
+**/puppeteer/.local-chromium/
+
+# Vite cache
+.vite/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Optional: OS-specific clutter
+*.orig
+*.bak
